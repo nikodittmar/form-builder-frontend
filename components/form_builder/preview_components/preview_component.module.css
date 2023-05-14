@@ -1,0 +1,11 @@
+.required {
+    color: red;
+}
+
+.hidden_disabled {
+    background-color: #fff !important;
+}
+
+.hidden_disabled_text {
+    opacity: 1.0 !important;
+}
