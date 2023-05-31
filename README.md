@@ -1,38 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Form Builder
+This project is split into two repositories. The front-end, built using React and Next.js, is in this repository. The back-end, built using Ruby on Rails, can be found in [this repository](https://github.com/nikodittmar/form-builder-backend). 
 
-## Getting Started
+## Features
+- Create, save, and edit forms.
+- Easy to use and intuituve UI.
+- Many component options including:
+  - Text Field
+  - Text Area
+  - Number Picker
+  - Check Boxes
+  - Radio Buttons
+  - Date Picker
+  - Time Picker
+  - File Upload
+  - Address Field
+- Easily edit component labels, placeholders, and helpers.
+- Drag and drop for ordering components and check box/radio button options.
 
-First, run the development server:
+## How it Works
+The form builder creates a JSON array containing all of the components used in the form. This JSON schema can be interpreted to create a form. Because the front-end and the back-end are seperate (The back-end is a seperate rails api), this form builder can easily be consumed by other applications such as a mobile form building app.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Screenshots
+<img width="500" alt="Screenshot 2023-05-17 at 10 08 03 AM" src="https://github.com/nikodittmar/form-builder-frontend/assets/77522904/5bae1958-8756-46a6-a7cb-a392236e0139">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="500" alt="Screenshot 2023-05-17 at 10 05 44 AM" src="https://github.com/nikodittmar/form-builder-frontend/assets/77522904/8e14d7c1-01bd-4b07-9fe6-bc8d9e61e42c">
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Video Demonstration
+[![video thumbnail](https://img.youtube.com/vi/xbNliir8Tdc/0.jpg)](https://www.youtube.com/watch?v=xbNliir8Tdc)
